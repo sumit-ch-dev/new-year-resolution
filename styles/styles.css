@@ -1,0 +1,57 @@
+:root {
+  --Dark-01: #151414;
+  --Dark-02: #444343;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* banner related styles */
+
+.banner {
+  background-image: url("../assets/images/banner/banner1.png");
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.banner-content {
+    float: right;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 150px;
+    margin-right: 150px;
+    text-align: right;
+}
+
+.banner-heading {
+    color: var(--Dark-01);
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-subheading {
+    color: var(--Dark-02);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.banner-button {
+    background: #f15b22;
+    border: none;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: auto;
+}
